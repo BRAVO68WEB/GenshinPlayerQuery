@@ -19,10 +19,13 @@ jobs:
         dotnet-version: 7.0.x
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: src
     - name: Build
       run: dotnet build -c Release --no-restore
+      working-directory: src
     - name: Publish
       run: dotnet publish --property:OutputPath=.\publish\
+      working-directory: src
     - name: Upload artifact
       uses: actions/upload-artifact@v3.1.0
       with:
