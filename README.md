@@ -1,12 +1,12 @@
-# 原神玩家信息查询器
-仅依据**游戏右下角的uid**(而非米游社名片)查询玩家信息 (**自己与其他玩家均可**), 包括但不限于**基础信息**、**角色详情**&**命座**&**装备**、**深境螺旋战绩**&**阵容**&**统计信息**等数据
+# Genshin Impact Player Information Queryer
+Only query player information (**you and other players**) based on the uid** in the lower right corner of the **game (not Miyoushe’s business card), including but not limited to **basic information** and **character details **&**Life Zodiac**&**Equipment**, **Deep Spiral Record**&**Lineup**&**Statistical Information** and other data
 
-[立即下载](https://github.com/Azure99/GenshinPlayerQuery/releases) [官网地址](https://www.rainng.com/genshin-player-query/) [问题反馈](https://github.com/Azure99/GenshinPlayerQuery/issues)
+[Download now](https://github.com/Azure99/GenshinPlayerQuery/releases) [Official website address](https://www.rainng.com/genshin-player-query/) [Problem feedback](https:// github.com/Azure99/GenshinPlayerQuery/issues)
 
-## 特性
+## Features
 
-- 玩家信息: 活跃天数, 成就, 收集数, 世界探索进度等
-- 角色列表: 所有角色等级与命座, 点击头像可查看角色详情, 支持按指定规则排序
-- 角色详情: 武器&圣遗物(包括等级和精炼), 命座
-- 深渊阵容: 每层深渊阵容(角色等级&命座), 星数, 通关时间, 可查询往期深渊数据
-- 深渊统计: 战斗/胜利次数、角色出场次数、承受伤害、击败敌人等, 相比米游社APP, 提供排行而非最大值
+- Player information: active days, achievements, number of collections, world exploration progress, etc.
+- Character list: all character levels and zodiac signs, click on the avatar to view character details, supports sorting by specified rules
+- Character details: weapons & holy relics (including level and refinement), life zodiac
+- Abyss lineup: Abyss lineup for each layer (character level & horoscope), number of stars, clearance time, past abyss data can be queried
+- Abyss statistics: number of battles/victories, number of character appearances, damage taken, enemies defeated, etc. Compared with Miyoushe APP, rankings are provided instead of maximum values.
