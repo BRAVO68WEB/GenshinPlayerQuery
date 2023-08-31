@@ -21,7 +21,7 @@ namespace GenshinPlayerQuery.View
 
         private void WebViewLogin_SourceChanged(object sender, CoreWebView2SourceChangedEventArgs e)
         {
-            if (WebViewLogin.Source.ToString() == "https://user.mihoyo.com/#/account/home")
+            if (WebViewLogin.Source.ToString() == "https://account.hoyoverse.com/#/account/accountInfo")
             {
                 _loginSuccessful = true;
                 MessageBus.AfterLoginSuccessful();
